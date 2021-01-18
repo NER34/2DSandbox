@@ -1,0 +1,15 @@
+Naprogramujte jednoduchou 2D sandbox hru.
+
+Hra musi splnovat nasledujici funkcionality
+
+   * Implementujte hrace (postava, lod, ...) a jeho stav (energie, zivoty, brneni, skore, ...)
+   * Vytvorte (soubojovy) model zraneni - alespon dve priciny (pad z vysky, soubor s nepritelem, pobyt v lave, ...)
+   * Vytvorte jednoduchy model prostredi (gravitace, prelevani vody (lavy), rust stromu, ...)
+   * Naimplementujte nacitani (konfigurace generatoru) mapy ze souboru a umoznete ukladat aktualni stav hry.
+
+Kde lze vyuzit polymorfismus? (doporucene)
+
+   * Postavy: hrac, zvirata, pritel (obchodnik), nepritel (ruzne druhy)
+   * Efekty akci: pad, uder, kontakt s lavou
+   * Prostredi: vzduch, voda, hlina, uhli, kov, lava, zebrik,...
+   * Uzivatelske rozhrani: konzole, ncurses, SDL, OpenGL (ruzne varianty), ...
